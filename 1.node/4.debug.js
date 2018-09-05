@@ -4,6 +4,7 @@ function sum(a,b){
     return function(){
         return a+b;
     }
+    
 }
 let total = sum(a,b);
 let c = total();
